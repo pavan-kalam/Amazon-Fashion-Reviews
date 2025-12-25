@@ -41,6 +41,5 @@ data/
 
 .env
 
-*.sh
 *.md
-scripts/run_in_docker.sh
+
