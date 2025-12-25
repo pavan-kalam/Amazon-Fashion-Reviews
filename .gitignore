@@ -1,0 +1,46 @@
+# Airflow
+logs/
+*.log
+airflow.db
+airflow.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+gas/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+data/
+*.csv
+*.parquet
+*.json
+*.jsonl
+
+# AWS
+.aws/
+
+.env
+
+*.sh
+*.md
+scripts/run_in_docker.sh
